@@ -97,8 +97,8 @@ $(function(){
 
         });
         
-    }).fail(function(){
-        console.log("An error has occurred.");
+    }).fail(function(e){
+        console.log("An error has occurred.",e);
     });
 })
 

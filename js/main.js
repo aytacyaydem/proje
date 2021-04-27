@@ -20,7 +20,7 @@ $(function(){
   
 
     $.ajax({
-        url: "/<repository>/data/bestSeller.json",
+        url: "../data/bestSeller.json",
         headers: {
             "Content-Type": "application/json"
         },

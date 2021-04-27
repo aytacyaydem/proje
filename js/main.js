@@ -1,6 +1,7 @@
 var exampleProduct = {}
 
 $(function(){
+    let url = window.location.origin
     const swiper = new Swiper('#carousel .swiper-container', { 
     slidesPerView:5.3,
       spaceBetween: 10,
@@ -20,7 +21,7 @@ $(function(){
   
 
     $.ajax({
-        url: "../data/bestSeller.json",
+        url: url+"/data/bestSeller.json",
         headers: {
             "Content-Type": "application/json"
         },

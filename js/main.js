@@ -1,7 +1,7 @@
 var exampleProduct = {}
 
 $(function(){
-    let url = window.location.origin
+    let url = window.location.href
     const swiper = new Swiper('#carousel .swiper-container', { 
     slidesPerView:5.3,
       spaceBetween: 10,
